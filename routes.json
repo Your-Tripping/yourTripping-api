@@ -1,7 +1,8 @@
 {
-  "users": 600,
-  "posts": 644,
+  "users": 660,
+  "posts": 660,
   "followers": 660,
+  "likes": 664,
   "/posts/:id/likes": "likes?postId=:id",
   "/posts/:id/comments": "comments?postId=:id",
   "/followers/:id": "followers?userId=:id"

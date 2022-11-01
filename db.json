@@ -31,27 +31,58 @@
           "description": "O Corcovado é um dos morros da cidade do Rio de Janeiro, célebre no Brasil e no mundo pela sua estátua do Cristo Redentor de 38 metros de altura. O Cristo Redentor é um dos principais símbolos do país e oferece uma privilegiada vista panorâmica da cidade do Rio de Janeiro"
         }
       ]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "username": "Filipe",
+      "country": "Brasiliann",
+      "imageUrl": "https://static.biologianet.com/2022/06/raposa-vermelha.jpg",
+      "location": "Rio de Janeiro RJ",
+      "places": [
+        {
+          "id": 1,
+          "name": "Primeira parada: Corcovado",
+          "image": "https://dhg1h5j42swfq.cloudfront.net/2021/11/23142721/121021_094621_100709999.jpg",
+          "description": "O Corcovado é um dos morros da cidade do Rio de Janeiro, célebre no Brasil e no mundo pela sua estátua do Cristo Redentor de 38 metros de altura. O Cristo Redentor é um dos principais símbolos do país e oferece uma privilegiada vista panorâmica da cidade do Rio de Janeiro"
+        },
+        {
+          "id": 1,
+          "name": "Primeira parada: Corcovado",
+          "image": "https://dhg1h5j42swfq.cloudfront.net/2021/11/23142721/121021_094621_100709999.jpg",
+          "description": "O Corcovado é um dos morros da cidade do Rio de Janeiro, célebre no Brasil e no mundo pela sua estátua do Cristo Redentor de 38 metros de altura. O Cristo Redentor é um dos principais símbolos do país e oferece uma privilegiada vista panorâmica da cidade do Rio de Janeiro"
+        }
+      ]
     }
   ],
   "followers": [
     {
-      "username": "fernando",
+      "username": "Fernando",
       "userId": 1,
       "id": 3
     }
   ],
   "likes": [
     {
+      "userId": 1,
       "id": 1,
       "postId": 1
     }
   ],
   "comments": [
     {
+      "userId": 1,
       "id": 1,
-      "username": "filipe",
-      "content": "Lugar incrivel",
-      "postId": 1
+      "postId": 1,
+      "username": "Filipe",
+      "content": "Lugar incrivel"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "postId": 2,
+      "username": "Filipe",
+      "content": "Lugar incrivel"
     }
   ]
 }
