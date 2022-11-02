@@ -55,6 +55,7 @@ FORMATO DA RESPOSTA
       "username": "Filipe",
       "country": "Brasil",
       "imageUrl": "https://static.biologianet.com/2022/06/raposa-vermelha.jpg",
+      "title": "Guia turistico de três dias"
       "location": "Rio de Janeiro RJ",
       "places": [
         {
