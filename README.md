@@ -6,19 +6,32 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configur
 
 Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
 
-### Cadastro
+### Realizar cadastro
 
 POST /register
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+FORMATO DA REQUISIÇÃO
+```
+{
+"email": "diniz@mail.com",
+"password": "123456",
+"name": "Kenzinho",
+"imageUrl": "https://static.biologianet.com/2022/06/raposa-vermelha.jpg",
+"bio": "teste"
+}
+```
 
-
-### Login
+### Realizar login
 
 POST /login
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+FORMATO DA REQUISIÇÃO
+```
+{ 
+  email: "kenzinho@mail.com"
+  password: "kenzie123"
+}
+```
 
 ### URL base
 https://your-tripping-api.herokuapp.com/
